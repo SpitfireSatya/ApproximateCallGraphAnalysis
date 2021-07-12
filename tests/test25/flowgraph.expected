@@ -1,0 +1,14 @@
+| Arg(main.js:<8,1>--<8,12>,1) | [ArgToParam-1] | Param(main.js:<4,3>--<4,11>,1) |
+| Callee(main.js:<7,9>--<7,15>) | [Assign-3] | Var(main.js:<7,5>--<7,5>) |
+| Class(main.js:<1,1>--<5,1>) | [ClassDecl] | Var(main.js:<1,7>--<1,7>) |
+| Exp(main.js:<8,7>--<8,11>) | [FunctionCall-2] | Arg(main.js:<8,1>--<8,12>,1) |
+| Fun(main.js:<2,3>--<2,18>) | [CtorCall] | Callee(main.js:<7,9>--<7,15>) |
+| Fun(main.js:<4,3>--<4,11>) | [MethodCall-1] | Callee(main.js:<8,1>--<8,12>) |
+| Fun(main.js:<4,3>--<4,11>) | [MethodDecl] | Prop(foo) |
+| Prop(foo) | [FunctionCall-1] | Callee(main.js:<8,1>--<8,12>) |
+| Receiver(main.js:<8,1>--<8,12>) | [ArgToParam-2] | This(main.js:<4,6>--<4,11>) |
+| Res(main.js:<7,9>--<7,15>) | [FunctionCall-3] | Exp(main.js:<7,9>--<7,15>) |
+| Res(main.js:<8,1>--<8,12>) | [FunctionCall-3] | Exp(main.js:<8,1>--<8,12>) |
+| Ret(main.js:<4,3>--<4,11>) | [RetToRes] | Res(main.js:<8,1>--<8,12>) |
+| Var(main.js:<1,7>--<1,7>) | [FunctionCall-1] | Callee(main.js:<7,9>--<7,15>) |
+| Var(main.js:<7,5>--<7,5>) | [FunctionCall-Receiver] | Receiver(main.js:<8,1>--<8,12>) |

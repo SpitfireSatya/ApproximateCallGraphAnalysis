@@ -1,0 +1,8 @@
+| Callee(main.js:<18,21>--<18,37>) | Fun(my-function-1.js:<2,1>--<10,1>) |
+| Callee(main.js:<19,21>--<19,37>) | Fun(my-function-2.js:<2,1>--<10,1>) |
+| Callee(main.js:<21,1>--<21,23>) | Fun(main.js:<9,14>--<9,27>) |
+| Callee(main.js:<21,1>--<21,23>) | Fun(my-function-1.js:<4,20>--<4,43>) |
+| Callee(main.js:<21,1>--<21,23>) | Fun(my-function-2.js:<4,3>--<4,26>) |
+| Callee(main.js:<22,1>--<22,23>) | Fun(main.js:<10,14>--<10,27>) |
+| Callee(main.js:<22,1>--<22,23>) | Fun(my-function-1.js:<6,20>--<6,43>) |
+| Callee(main.js:<22,1>--<22,23>) | Fun(my-function-2.js:<6,3>--<6,26>) |

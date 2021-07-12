@@ -1,0 +1,12 @@
+| Callee(es6.js:<1093,92>--<1093,108>) | Fun(main.js:<15,8>--<15,31>) |
+| Callee(es6.js:<1105,43>--<1105,52>) | Fun(main.js:<9,21>--<13,1>) |
+| Callee(es6.js:<1184,90>--<1184,106>) | Fun(main.js:<15,8>--<15,31>) |
+| Callee(main.js:<6,17>--<6,21>) | Fun(main.js:<7,1>--<7,17>) |
+| Callee(main.js:<9,9>--<13,2>) | Fun(es6.js:<1105,1>--<1105,55>) |
+| Callee(main.js:<10,4>--<10,8>) | Fun(main.js:<5,1>--<5,17>) |
+| Callee(main.js:<11,4>--<11,8>) | Fun(main.js:<6,1>--<6,24>) |
+| Callee(main.js:<15,1>--<15,32>) | Fun(es6.js:<1093,28>--<1093,148>) |
+| Callee(main.js:<15,1>--<15,32>) | Fun(es6.js:<1184,26>--<1184,146>) |
+| Callee(main.js:<15,15>--<15,28>) | Fun(es3.js:<1117,12>--<1117,25>) |
+| Callee(main.js:<15,15>--<15,28>) | Fun(globals.js:<1962,25>--<1962,60>) |
+| Callee(main.js:<15,15>--<15,28>) | Fun(globals.js:<1968,25>--<1968,45>) |

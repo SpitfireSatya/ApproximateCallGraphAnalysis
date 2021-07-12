@@ -1,0 +1,5 @@
+| Callee(main.js:<13,3>--<13,8>) | Fun(main.js:<5,13>--<5,35>) |
+| Callee(main.js:<13,3>--<13,8>) | Fun(main.js:<9,13>--<9,35>) |
+| Callee(main.js:<13,3>--<13,8>) | Fun(my-class.js:<4,3>--<4,16>) |
+| Callee(main.js:<16,17>--<16,29>) | Fun(my-class.js:<2,15>--<2,14>) |
+| Callee(main.js:<17,1>--<17,30>) | Fun(main.js:<12,1>--<14,1>) |

@@ -1,0 +1,2 @@
+| Callee(acorn.js:<5,1>--<5,5>) | Fun(acorn.js:<1,1>--<3,1>) |
+| Callee(main.js:<1,1>--<5,4>) | Fun(main.js:<1,2>--<5,1>) |

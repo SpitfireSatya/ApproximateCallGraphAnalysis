@@ -1,0 +1,2 @@
+| Callee(main.js:<4,13>--<4,26>) | Fun(b.js:<15,8>--<17,1>) |
+| Callee(main.js:<5,1>--<5,17>) | Fun(Assert.js:<4,1>--<8,1>) |

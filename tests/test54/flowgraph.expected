@@ -1,0 +1,14 @@
+| Exp(acorn.js:<2,15>--<2,20>) | [FunctionCall-2] | Arg(acorn.js:<2,3>--<2,21>,1) |
+| Exp(main.js:<1,1>--<5,2>) | [FunctionCall-1] | Callee(main.js:<1,1>--<5,4>) |
+| Fun(acorn.js:<1,1>--<3,1>) | [FunctionDecl] | Var(acorn.js:<1,10>--<1,12>) |
+| Fun(main.js:<1,2>--<5,1>) | [FunctionExpr-1] | Exp(main.js:<1,2>--<5,1>) |
+| Fun(main.js:<1,2>--<5,1>) | [ParenthesizedExpr] | Exp(main.js:<1,1>--<5,2>) |
+| ImportMod(main.js:<3,15>--<3,32>,acorn.js) | [Assign-3] | Var(main.js:<3,7>--<3,11>) |
+| Prop(log) | [FunctionCall-1] | Callee(acorn.js:<2,3>--<2,21>) |
+| Res(acorn.js:<2,3>--<2,21>) | [FunctionCall-3] | Exp(acorn.js:<2,3>--<2,21>) |
+| Res(acorn.js:<5,1>--<5,5>) | [FunctionCall-3] | Exp(acorn.js:<5,1>--<5,5>) |
+| Res(main.js:<1,1>--<5,4>) | [FunctionCall-3] | Exp(main.js:<1,1>--<5,4>) |
+| Res(main.js:<3,15>--<3,32>) | [FunctionCall-3] | Exp(main.js:<3,15>--<3,32>) |
+| Ret(acorn.js:<1,1>--<3,1>) | [RetToRes] | Res(acorn.js:<5,1>--<5,5>) |
+| Ret(main.js:<1,2>--<5,1>) | [RetToRes] | Res(main.js:<1,1>--<5,4>) |
+| Var(acorn.js:<1,10>--<1,12>) | [FunctionCall-1] | Callee(acorn.js:<5,1>--<5,5>) |

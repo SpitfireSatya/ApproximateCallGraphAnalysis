@@ -1,0 +1,3 @@
+name: approximate-callgraph-analysis
+version: 0.0.0
+libraryPathDependencies: codeql-javascript

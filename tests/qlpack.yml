@@ -1,0 +1,4 @@
+name: approximate-callgraphs-tests
+version: 0.0.0
+libraryPathDependencies: approximate-callgraph-analysis
+extractor: javascript

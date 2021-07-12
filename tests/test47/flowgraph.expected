@@ -1,0 +1,17 @@
+| Arg(main.js:<5,1>--<5,56>,1) | [ArgToParam-1] | Param(main.js:<1,1>--<3,1>,1) |
+| Arg(main.js:<5,1>--<5,56>,2) | [ArgToParam-1] | Param(main.js:<1,1>--<3,1>,2) |
+| Exp(main.js:<5,6>--<5,7>) | [FunctionCall-2] | Arg(main.js:<5,1>--<5,56>,1) |
+| Exp(main.js:<5,10>--<5,55>) | [FunctionCall-2] | Arg(main.js:<5,1>--<5,56>,2) |
+| Exp(main.js:<5,42>--<5,50>) | [FunctionCall-2] | Arg(main.js:<5,30>--<5,51>,1) |
+| Fun(main.js:<1,1>--<3,1>) | [FunctionDecl] | Var(main.js:<1,10>--<1,13>) |
+| Fun(main.js:<5,18>--<5,54>) | [FunctionExpr-1] | Exp(main.js:<5,18>--<5,54>) |
+| Fun(main.js:<5,18>--<5,54>) | [ObjLiteral] | Prop(arg1) |
+| Param(main.js:<1,1>--<3,1>,2) | [FunctionCall-1] | Callee(main.js:<2,3>--<2,8>) |
+| Prop(arg1) | [Assign-5] | Param(main.js:<1,1>--<3,1>,2) |
+| Prop(log) | [FunctionCall-1] | Callee(main.js:<5,30>--<5,51>) |
+| Res(main.js:<2,3>--<2,8>) | [FunctionCall-3] | Exp(main.js:<2,3>--<2,8>) |
+| Res(main.js:<5,1>--<5,56>) | [FunctionCall-3] | Exp(main.js:<5,1>--<5,56>) |
+| Res(main.js:<5,30>--<5,51>) | [FunctionCall-3] | Exp(main.js:<5,30>--<5,51>) |
+| Ret(main.js:<1,1>--<3,1>) | [RetToRes] | Res(main.js:<5,1>--<5,56>) |
+| Ret(main.js:<5,18>--<5,54>) | [RetToRes] | Res(main.js:<2,3>--<2,8>) |
+| Var(main.js:<1,10>--<1,13>) | [FunctionCall-1] | Callee(main.js:<5,1>--<5,56>) |

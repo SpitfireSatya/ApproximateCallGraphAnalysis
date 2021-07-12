@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "flow": "flow",
+    "flow:check": "flow check ./src/",
+    "flow:build": "flow-remove-types ./src/ -d ./lib/ --all --pretty"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.126.1",
+    "flow-remove-types": "^2.126.1"
+  },
+  "dependencies": {
+    "mocha": "^7.2.0"
+  }
+}

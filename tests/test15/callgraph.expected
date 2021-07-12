@@ -1,0 +1,10 @@
+| Callee(main.js:<8,13>--<8,36>) | Fun(index.js:<8,27>--<10,1>) |
+| Callee(main.js:<9,1>--<9,17>) | Fun(index.js:<4,1>--<8,1>) |
+| Callee(main.js:<11,1>--<18,13>) | Fun(main.js:<11,2>--<18,1>) |
+| Callee(main.js:<13,16>--<13,24>) | Fun(index.js:<4,1>--<4,23>) |
+| Callee(main.js:<14,5>--<14,31>) | Fun(index.js:<4,1>--<8,1>) |
+| Callee(main.js:<14,16>--<14,30>) | Fun(index.js:<6,28>--<8,1>) |
+| Callee(main.js:<15,5>--<15,36>) | Fun(index.js:<4,1>--<8,1>) |
+| Callee(main.js:<15,16>--<15,35>) | Fun(index.js:<4,27>--<6,1>) |
+| Callee(main.js:<15,16>--<15,35>) | Fun(index.js:<9,33>--<11,1>) |
+| Callee(main.js:<17,3>--<17,20>) | Fun(main.js:<12,14>--<16,3>) |

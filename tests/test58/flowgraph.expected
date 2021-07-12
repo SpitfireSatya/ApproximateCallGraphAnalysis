@@ -1,0 +1,13 @@
+| Exp(temp.js:<3,15>--<3,27>) | [FunctionCall-2] | Arg(temp.js:<3,3>--<3,28>,1) |
+| Fun(temp.js:<2,16>--<4,1>) | [FunctionDecl] | Var(temp.js:<2,25>--<2,28>) |
+| ImportName(main.js:<2,14>--<2,30>,default) | [Assign-3] | Var(main.js:<2,7>--<2,10>) |
+| ModuleExport(temp.js) | [AccessDefaultViaRequire] | ImportName(main.js:<2,14>--<2,30>,default) |
+| ModuleExport(temp.js) | [Require] | ImportMod(main.js:<2,14>--<2,30>,temp.js) |
+| Prop(default) | [Assign-3] | Var(main.js:<2,7>--<2,10>) |
+| Prop(log) | [FunctionCall-1] | Callee(temp.js:<3,3>--<3,28>) |
+| Res(main.js:<2,14>--<2,30>) | [FunctionCall-3] | Exp(main.js:<2,14>--<2,30>) |
+| Res(main.js:<4,1>--<4,6>) | [FunctionCall-3] | Exp(main.js:<4,1>--<4,6>) |
+| Res(temp.js:<3,3>--<3,28>) | [FunctionCall-3] | Exp(temp.js:<3,3>--<3,28>) |
+| Ret(temp.js:<2,16>--<4,1>) | [RetToRes] | Res(main.js:<4,1>--<4,6>) |
+| Var(main.js:<2,7>--<2,10>) | [FunctionCall-1] | Callee(main.js:<4,1>--<4,6>) |
+| Var(temp.js:<2,25>--<2,28>) | [DefaultExport-Fun] | ModuleExport(temp.js) |

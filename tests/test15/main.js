@@ -1,0 +1,1 @@
+require('./subdir/main.js')

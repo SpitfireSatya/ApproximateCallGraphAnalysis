@@ -1,0 +1,15 @@
+| ExportName(util.js,bar) | [ImportNames] | ImportName(main.js:<5,1>--<5,35>,bar) |
+| ExportName(util.js,foo) | [ImportNames] | ImportName(main.js:<5,1>--<5,35>,foo) |
+| Fun(util.js:<1,8>--<1,24>) | [FunctionDecl] | Var(util.js:<1,17>--<1,19>) |
+| Fun(util.js:<2,8>--<2,24>) | [FunctionDecl] | Var(util.js:<2,17>--<2,19>) |
+| ImportName(main.js:<5,1>--<5,35>,bar) | [NamedImport] | Var(main.js:<5,16>--<5,18>) |
+| ImportName(main.js:<5,1>--<5,35>,foo) | [NamedImport] | Var(main.js:<5,11>--<5,13>) |
+| ModuleExport(util.js) | [Import] | ImportMod(main.js:<5,1>--<5,35>,util.js) |
+| Res(main.js:<7,1>--<7,5>) | [FunctionCall-3] | Exp(main.js:<7,1>--<7,5>) |
+| Res(main.js:<8,1>--<8,5>) | [FunctionCall-3] | Exp(main.js:<8,1>--<8,5>) |
+| Ret(util.js:<1,8>--<1,24>) | [RetToRes] | Res(main.js:<7,1>--<7,5>) |
+| Ret(util.js:<2,8>--<2,24>) | [RetToRes] | Res(main.js:<8,1>--<8,5>) |
+| Var(main.js:<5,11>--<5,13>) | [FunctionCall-1] | Callee(main.js:<7,1>--<7,5>) |
+| Var(main.js:<5,16>--<5,18>) | [FunctionCall-1] | Callee(main.js:<8,1>--<8,5>) |
+| Var(util.js:<1,17>--<1,19>) | [NamedExport] | ExportName(util.js,foo) |
+| Var(util.js:<2,17>--<2,19>) | [NamedExport] | ExportName(util.js,bar) |
